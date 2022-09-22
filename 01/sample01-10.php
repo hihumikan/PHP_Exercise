@@ -1,3 +1,7 @@
+<?php
+    $data = "Hello, world!<br>";
+    ?>
+
 <!DOCTYPE html>
 <html lang="ja">
     <head>
@@ -5,8 +9,7 @@
         <title></title>
     </head>
     <body>
-        <?php
-        print "この部分がPHPスクリプトです。";
-        ?>
+        <?= $data ?>
+        <?php print $data ?>
     </body>
 </html>

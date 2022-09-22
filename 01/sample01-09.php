@@ -5,8 +5,11 @@
         <title></title>
     </head>
     <body>
+        この部分はHTMLです！<br>
         <?php
-        print "この部分がPHPスクリプトです。";
+
+        print "この部分がPHPスクリプトです！<br>";
         ?>
+        この部分はHTMLです！<br>
     </body>
 </html>

@@ -6,7 +6,15 @@
     </head>
     <body>
         <?php
-        print "この部分がPHPスクリプトです。";
+
+        $cnt = 1;
+
+        do {
+            print $cnt;
+            print ",";
+            $cnt++;
+        } while ($cnt <= 10);
+
         ?>
     </body>
 </html>

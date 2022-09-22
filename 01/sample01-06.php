@@ -6,7 +6,9 @@
     </head>
     <body>
         <?php
-        print "この部分がPHPスクリプトです。";
+        define("data1", "Hello, world!<br>");
+
+        print data1;
         ?>
     </body>
 </html>
