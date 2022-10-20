@@ -2,7 +2,8 @@ name: php-format
 on:
   pull_request:
     branches:
-      - main
+      - master
+
 jobs:
   lint:
     runs-on: ubuntu-latest
