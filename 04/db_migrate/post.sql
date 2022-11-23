@@ -8,4 +8,3 @@ CREATE TABLE post (
 );
 
 INSERT INTO post (title, date, name, body) 
-VALUES ('ようこそ掲示板へ', '2020-10-16 20:16:34', '管理人 RenGoto', 'ざっくばらんに会話を楽しみましょう。');
